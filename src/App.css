@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+.App{
+  background-color: rgb(0, 20, 14);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.App img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.resident_card{
+  background-color: #012406 ;
+  color: #FFF;
+  margin-right: 40rem;
+  margin-left: 40rem;
+  
+  
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.gris {
+  color: gray;
+}
+
+.resident_card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+  
+}
+
+
+.info_status{
+ 
+  position: relative;
+  
+}
+
+.status{
+  
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid;
+
+}
+
+.card_location{
+
+ background-color: #012406 ;
+ color: #FFF;
+ 
+ margin-right: 30rem;
+ margin-left: 32rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+ border-radius: 30px;
+ 
+
+}
+
+.card_details{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+  
+.card_details p{
+  margin-right: 100px;
+  margin-left: 100px;
+  font-size: 20px;
+ 
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
